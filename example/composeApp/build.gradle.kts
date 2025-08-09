@@ -69,7 +69,7 @@ kotlin {
 
 //            implementation(project(":kapp-deeplink-core"))
 
-            implementation("io.github.lucasferreiramachado:kapp-deeplink:0.1.0")
+            implementation("io.github.lucasferreiramachado:kapp-deeplink:0.3.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
