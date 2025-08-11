@@ -3,11 +3,11 @@ import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
-val libraryVersion          = "0.3.0"
+val libraryVersion          = "0.4.0"
 val libraryNamespace        = "io.github.lucasferreiramachado"
 val frameworkLibraryName    = "KAppDeeplink" // execute gradle clean after changed it
 val libraryArtifact         = "kapp-deeplink"
-val libraryPackage          = "${libraryNamespace}.replaceme.core"
+val libraryPackage          = "${libraryNamespace}.kapp.deeplink.core"
 val githubRepoName          = "kapp-deeplink"
 
 plugins {
