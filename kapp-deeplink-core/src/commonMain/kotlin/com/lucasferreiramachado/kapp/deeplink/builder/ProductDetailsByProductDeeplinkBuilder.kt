@@ -6,7 +6,7 @@ import com.lucasferreiramachado.kapp.deeplink.route.AppDeeplinkRoute
 import com.lucasferreiramachado.kdeeplink.builder.KDeeplinkBuilder
 import kotlinx.serialization.json.Json
 
-// DEEPLINK_SCHEME://product/detail/{json}
+// DEEPLINK_SCHEME:/product/detail/{json}
 
 class ProductDetailsByProductDeeplinkBuilder(
     val product: Product

@@ -5,7 +5,7 @@ import com.lucasferreiramachado.kdeeplink.builder.KDeeplinkBuilder
 import com.lucasferreiramachado.kdeeplink.route.KDeeplinkRoute
 import com.lucasferreiramachado.kapp.deeplink.route.AppDeeplinkRoute
 
-// DEEPLINK_SCHEME://products
+// DEEPLINK_SCHEME:/products
 
 class ProductListDeeplinkBuilder: KDeeplinkBuilder {
 
